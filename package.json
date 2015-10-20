@@ -21,6 +21,10 @@
     "name": "wacky6",
     "email": "416707889@qq.com"
   },
+  "engines": {
+    "node": ">= 4.0.0",
+    "iojs": ">= 3.0.0"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wacky6/grunt-fontmin/issues"

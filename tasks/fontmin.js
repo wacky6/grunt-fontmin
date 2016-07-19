@@ -52,7 +52,7 @@ function taskFontmin() {
         let output = ttfToOutput(stripped, type, typeOpts)
 
         // solve dest path, write output
-        let destPath = join(destdir, getOutputFilename(path))
+        let destPath = join(destdir, getOutputFilename(path,type))
         grunt.file.write(destPath, toBuffer(output))
 
         // output information
